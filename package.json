@@ -1,0 +1,16 @@
+{
+  "name": "webrtcpeer",
+  "version": "1.0.0",
+  "description": "web rtc with peer ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"budo index.js:bundle.js"
+  },
+  "author": "subhajit",
+  "license": "ISC",
+  "dependencies": {
+    "peer": "^0.2.10",
+    "simple-peer": "^9.2.0"
+  }
+}
